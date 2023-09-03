@@ -41,7 +41,7 @@ const html = `<!DOCTYPE html>
           <h4>
             <b>Base SFA Config</b>
           </h4>
-          <textarea id="output1"></textarea>
+          <textarea id="output1" rows="7" cols="50"></textarea>
           <br />
           <div class="tombol">
             <button class="button" onclick="downloadConfig('output1')">Download</button>
@@ -53,7 +53,7 @@ const html = `<!DOCTYPE html>
           <h4>
             <b>Simple SFA Config</b>
           </h4>
-          <textarea id="output2"></textarea>
+          <textarea id="output2" rows="7" cols="50"></textarea>
           <br />
           <div class="tombol">
             <button class="button" onclick="downloadConfig('output2')">Download</button>
