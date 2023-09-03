@@ -514,9 +514,7 @@ async function parseUrl() {
 function downloadConfig(outputId){
   let listNameConfig = {
     "output1" : "sfa",
-    "output2" : "sfaSimple",
-    "output3" : "bfm",
-    "output4" : "bfmSimple"
+    "output2" : "sfaSimple"
   }
   let nameConfig = listNameConfig[outputId]
   let outputText = document.getElementById(outputId).value;
